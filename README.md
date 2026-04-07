@@ -49,6 +49,18 @@ Set-Location D:\FramePilotAI
 .\scripts\bootstrap.ps1
 ```
 
+### 1a. One-shot shell run
+
+```sh
+sh ./run-all.sh
+```
+
+This wrapper runs `bootstrap -> build-all -> test-all -IncludeSmoke` in one pass. Optional flags:
+
+- `sh ./run-all.sh --skip-frontend-install`
+- `sh ./run-all.sh --cargo-check`
+- `sh ./run-all.sh --bundle`
+
 ### 2. Run development mode
 
 ```powershell
