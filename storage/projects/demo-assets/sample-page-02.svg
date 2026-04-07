@@ -1,0 +1,7 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#1f2937"/>
+  <rect x="90" y="110" width="1420" height="680" rx="40" fill="#fef3c7"/>
+  <text x="180" y="250" fill="#78350f" font-size="62" font-family="Segoe UI, sans-serif">FramePilot Demo Page 02</text>
+  <text x="180" y="360" fill="#92400e" font-size="42" font-family="Segoe UI, sans-serif">"Sau OCR, scene planning và render sẽ chạy theo shot nhỏ."</text>
+  <text x="180" y="460" fill="#451a03" font-size="36" font-family="Segoe UI, sans-serif">Fallback luôn ưu tiên hoàn thành export.</text>
+</svg>

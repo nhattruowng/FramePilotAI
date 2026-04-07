@@ -1,0 +1,7 @@
+name: ECO
+maxResolution: 1280x720
+maxAnimatedShotsPerScene: 1
+pipeline: MOTION_COMIC
+notes:
+  - stability-first
+  - low-memory-safe

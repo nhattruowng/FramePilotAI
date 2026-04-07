@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: framepilot-ai-local-server
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  sql:
+    init:
+      mode: always
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:${framepilot.storage.root}/app.db
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.framepilotai.server: INFO
+
+framepilot:
+  storage:
+    root: ${FRAMEPILOT_STORAGE_ROOT:../../storage}
+    projects-dir: projects
+    cache-dir: cache
+    exports-dir: exports/generated
+    demo-assets-dir: projects/demo-assets
+  ffmpeg:
+    executable: ${FRAMEPILOT_FFMPEG:}
+  runtime:
+    memory-pressure-threshold-percent: 82
+    cpu-pressure-threshold-percent: 90
+    vram-pressure-threshold-percent: 85
+  render:
+    max-retry-per-shot: 2
+    queue-concurrency: 1
+    pause-poll-millis: 400

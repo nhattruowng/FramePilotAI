@@ -1,0 +1,9 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#111827"/>
+  <rect x="70" y="80" width="660" height="740" rx="28" fill="#f8fafc"/>
+  <rect x="870" y="80" width="660" height="740" rx="28" fill="#e0f2fe"/>
+  <text x="140" y="190" fill="#0f172a" font-size="58" font-family="Segoe UI, sans-serif">FramePilot Demo Page 01</text>
+  <text x="140" y="310" fill="#334155" font-size="44" font-family="Segoe UI, sans-serif">"Thiết bị của chúng ta chịu được preset nào?"</text>
+  <text x="940" y="260" fill="#0f172a" font-size="48" font-family="Segoe UI, sans-serif">Panel reaction</text>
+  <text x="940" y="340" fill="#1e293b" font-size="36" font-family="Segoe UI, sans-serif">Nhân vật đang chuẩn bị chuyển cảnh.</text>
+</svg>

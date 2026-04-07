@@ -1,0 +1,7 @@
+name: QUALITY
+maxResolution: 1920x1080
+maxAnimatedShotsPerScene: 4
+pipeline: ENHANCED_HYBRID
+notes:
+  - quality-first
+  - requires-strong-device

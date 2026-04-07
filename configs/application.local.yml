@@ -1,0 +1,5 @@
+framepilot:
+  runtime:
+    memory-pressure-threshold-percent: 78
+    cpu-pressure-threshold-percent: 88
+    vram-pressure-threshold-percent: 82

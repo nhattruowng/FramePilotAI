@@ -1,0 +1,7 @@
+name: BALANCED
+maxResolution: 1600x900
+maxAnimatedShotsPerScene: 2
+pipeline: HYBRID
+notes:
+  - moderate-motion
+  - creator-default
